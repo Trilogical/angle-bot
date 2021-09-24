@@ -1,1 +1,1 @@
-worker: python akua.py
+Worker: python akua.py
