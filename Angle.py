@@ -80,6 +80,14 @@ async def hello(ctx):
     ]
     await ctx.send(random.choice(responses))
 
+@client.command(name="nice", help="This command returns a random welcome message")
+async def nice(ctx):
+    responses = [
+        "nice",
+        
+    ]
+    await ctx.send(random.choice(responses))
+
 
 @client.command(name="die", help="This command returns a random last words")
 async def die(ctx):
